@@ -1,0 +1,111 @@
+{
+  "scanned_files": 85,
+  "total_duplicates": 23,
+  "total_saved_if_dedup_bytes": 6302,
+  "total_saved_mb": 0.01,
+  "groups": [
+    {
+      "size_bytes": 651,
+      "saved_if_dedup_bytes": 1953,
+      "hash": "79e81bf3e5ac15e5af21b53fcfad74ec24b615a83175d34390da454c83b9c85d",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/kr.iml",
+        "D:/karazina/ruby/lab1/.idea/lab1.iml",
+        "D:/karazina/ruby/lab2/.idea/lab2.iml",
+        "D:/karazina/ruby/lab3/.idea/lab3.iml"
+      ]
+    },
+    {
+      "size_bytes": 539,
+      "saved_if_dedup_bytes": 1078,
+      "hash": "c17c4395506ccd2e4bf54abe2857af192efa2c95b21f00ea7a0e9829005ecc6a",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/discord.xml",
+        "D:/karazina/ruby/lab2/.idea/discord.xml",
+        "D:/karazina/ruby/lab3/.idea/discord.xml"
+      ]
+    },
+    {
+      "size_bytes": 199,
+      "saved_if_dedup_bytes": 398,
+      "hash": "65753465e271eed78cc36dce8b8a00ed3c8fc75eeeb3e2b1fde04a51bcd786c6",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/copilot.data.migration.ask2agent.xml",
+        "D:/karazina/ruby/lab2/.idea/copilot.data.migration.ask2agent.xml",
+        "D:/karazina/ruby/lab3/.idea/copilot.data.migration.ask2agent.xml"
+      ]
+    },
+    {
+      "size_bytes": 195,
+      "saved_if_dedup_bytes": 585,
+      "hash": "4805746a1cdb6ef089ec7c0e198e13992034e08b83ed95122ed605ca99c39653",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/copilot.data.migration.agent.xml",
+        "D:/karazina/ruby/lab1/.idea/copilot.data.migration.agent.xml",
+        "D:/karazina/ruby/lab2/.idea/copilot.data.migration.agent.xml",
+        "D:/karazina/ruby/lab3/.idea/copilot.data.migration.agent.xml"
+      ]
+    },
+    {
+      "size_bytes": 194,
+      "saved_if_dedup_bytes": 582,
+      "hash": "bb7a167dd77a22fb8fdfb5668df96453bbfb4dd99c0d499fc740b8e0bd73e30c",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/copilot.data.migration.edit.xml",
+        "D:/karazina/ruby/lab1/.idea/copilot.data.migration.edit.xml",
+        "D:/karazina/ruby/lab2/.idea/copilot.data.migration.edit.xml",
+        "D:/karazina/ruby/lab3/.idea/copilot.data.migration.edit.xml"
+      ]
+    },
+    {
+      "size_bytes": 193,
+      "saved_if_dedup_bytes": 386,
+      "hash": "4141162ea613208b5edb1247c22a4a65cd628315167af551cefa7ae42a2c4076",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/copilot.data.migration.ask.xml",
+        "D:/karazina/ruby/lab2/.idea/copilot.data.migration.ask.xml",
+        "D:/karazina/ruby/lab3/.idea/copilot.data.migration.ask.xml"
+      ]
+    },
+    {
+      "size_bytes": 188,
+      "saved_if_dedup_bytes": 564,
+      "hash": "d0df76de3a966f51606b564edccc430dbc21c32ee5c3f35dccf95597fad81392",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/vcs.xml",
+        "D:/karazina/ruby/lab1/.idea/vcs.xml",
+        "D:/karazina/ruby/lab2/.idea/vcs.xml",
+        "D:/karazina/ruby/lab3/.idea/vcs.xml"
+      ]
+    },
+    {
+      "size_bytes": 184,
+      "saved_if_dedup_bytes": 552,
+      "hash": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16",
+      "files": [
+        "D:/karazina/ruby/kr/.idea/.gitignore",
+        "D:/karazina/ruby/lab1/.idea/.gitignore",
+        "D:/karazina/ruby/lab2/.idea/.gitignore",
+        "D:/karazina/ruby/lab3/.idea/.gitignore"
+      ]
+    },
+    {
+      "size_bytes": 163,
+      "saved_if_dedup_bytes": 163,
+      "hash": "ace6e44c715e37536e7597f8066a7916a4a383723f752970e68b978c8c989213",
+      "files": [
+        "D:/karazina/ruby/.git/logs/HEAD",
+        "D:/karazina/ruby/.git/logs/refs/heads/master"
+      ]
+    },
+    {
+      "size_bytes": 41,
+      "saved_if_dedup_bytes": 41,
+      "hash": "f649018ef0d943c2bf2838cb33de315d3168d138281f0fa97a3dc0fd93fd8888",
+      "files": [
+        "D:/karazina/ruby/.git/refs/heads/master",
+        "D:/karazina/ruby/.git/refs/remotes/origin/master"
+      ]
+    }
+  ]
+}
