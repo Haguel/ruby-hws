@@ -1,6 +1,6 @@
 module QrBarcodeGem
   class Generator
-    # Генерація QR-коду
+    # Generate a QR code
     def self.generate_qr(data, format: :png, options: {})
       qr = RQRCode::QRCode.new(data)
       case format
@@ -13,12 +13,11 @@ module QrBarcodeGem
       end
     end
 
-    # Генерація штрих-коду (підтримувані типи: :code_128, :ean_13, etc.)
+    # Generate a barcode (supported types: :code_128, :ean_13, etc.)
     def self.generate_barcode(data, type: :code_128, format: :png)
       barcode_class = case type
                       when :code_128 then Barby::Code128B
                       when :ean_13 then Barby::EAN13
-                      # Додайте інші типи за потребою
                       else raise ArgumentError, "Unsupported type: #{type}"
                       end
       barcode = barcode_class.new(data)

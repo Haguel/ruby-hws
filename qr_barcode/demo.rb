@@ -3,7 +3,7 @@ require 'qr_barcode_gem'
 
 # Генерація QR PNG та збереження
 qr_png = QrBarcodeGem::Generator.generate_qr('https://example.com', format: :png)
-File.write('qr.png', qr_png.to_s)
+File.write('qr.png', qr_png.to_s, mode: 'wb')
 puts 'QR PNG згенеровано: qr.png'
 
 # Генерація QR SVG
@@ -13,7 +13,7 @@ puts 'QR SVG згенеровано: qr.svg'
 
 # Генерація штрих-коду PNG
 barcode_png = QrBarcodeGem::Generator.generate_barcode('123456789012', type: :ean_13, format: :png)
-File.write('barcode.png', barcode_png)
+File.write('barcode.png', barcode_png, mode: 'wb')
 puts 'Barcode PNG згенеровано: barcode.png'
 
 # Генерація штрих-коду SVG
@@ -23,8 +23,8 @@ puts 'Barcode SVG згенеровано: barcode.svg'
 
 # Валідація
 puts "QR валідація: #{QrBarcodeGem::Validator.validate_qr('Valid data')}" # true
-puts "Barcode валідація: #{QrBarcodeGem::Validator.validate_barcode('1234567890', type: :ean_13)}" # true
+puts "Barcode валідація: #{QrBarcodeGem::Validator.validate_barcode('123456789012', type: :ean_13)}" # true
 
-# Декодування (використовуємо згенерований QR PNG)
+# Декодування
 decoded = QrBarcodeGem::Decoder.decode('qr.png')
 puts "Декодовано: #{decoded.first[:data]} (тип: #{decoded.first[:type]})"

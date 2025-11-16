@@ -7,7 +7,7 @@ class TestValidator < Minitest::Test
   end
 
   def test_validate_qr_invalid
-    refute QrBarcodeGem::Validator.validate_qr('' * 10000) # Занадто довге
+    refute QrBarcodeGem::Validator.validate_qr('a' * 10000)
   end
 
   def test_validate_barcode_valid

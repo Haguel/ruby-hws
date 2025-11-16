@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 module QrBarcodeGem
   class Validator
-    # Валідація даних для QR
+    # Validate data for QR code
     def self.validate_qr(data)
       RQRCode::QRCode.new(data)
       true
@@ -8,7 +10,7 @@ module QrBarcodeGem
       false
     end
 
-    # Валідація даних для штрих-коду
+    # Validate data for barcode
     def self.validate_barcode(data, type: :code_128)
       barcode_class = case type
                       when :code_128 then Barby::Code128B
